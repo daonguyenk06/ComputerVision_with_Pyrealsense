@@ -29,13 +29,13 @@ while True:
     """
     # Define HSV ranges for red, green, blue, yellow, and orange
     black_lower = np.array([0, 0, 0], np.uint8)
-    black_upper = np.array([180, 255, 50], np.uint8)
+    black_upper = np.array([180, 255, 100], np.uint8)
     red_lower1 = np.array([0, 180, 100], np.uint8)
     red_upper1 = np.array([5, 255, 160], np.uint8)
     red_lower2 = np.array([170, 100, 140], np.uint8)
     red_upper2 = np.array([180, 255, 200], np.uint8)
     green_lower = np.array([75, 100, 90], np.uint8)
-    green_upper = np.array([95, 255, 150], np.uint8)
+    green_upper = np.array([95, 255, 180], np.uint8)
     blue_lower = np.array([95, 200, 90], np.uint8)
     blue_upper = np.array([105, 255, 255], np.uint8)
     yellow_lower = np.array([23, 90, 150], np.uint8)
